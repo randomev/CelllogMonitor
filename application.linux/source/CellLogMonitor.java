@@ -62,7 +62,7 @@ public void setup()
   myPort.clear();
   background(255);             // Set background to white
   myServer = new Server(this, 7373); 
-  dataOutToPachube = new DataOut(this,"http://api.pachube.com/v2/feeds/13021.xml","2555aa324115fb0837ed26a1ec01601ca11460be6b6229daad914ee2bf841e93");
+  dataOutToPachube = new DataOut(this,"http://api.pachube.com/v2/feeds/13021.xml","PACHUBE_API_KEY");
   dataOutToPachube.addData(0,"Cell 1");
   dataOutToPachube.addData(1,"Cell 2");
   dataOutToPachube.addData(2,"Cell 3");
