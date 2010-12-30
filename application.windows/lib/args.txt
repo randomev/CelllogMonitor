@@ -1,0 +1,3 @@
+
+CellLogMonitor
+CellLogMonitor.jar,core.jar,serial.jar,RXTXcomm.jar,net.jar

@@ -1,0 +1,3 @@
+Remote monitoring with Processing (Java) for CellLog8 devices.
+
+CellLog8 is capable of reading 8 lithium ion cell voltages and displaying them locally. On top of that, it's capable of outputting each measurement with USB-bus. This software uses that to communicate with CellLog8. Software reads values locally and sends them to both Patchub and local TCP-port.
